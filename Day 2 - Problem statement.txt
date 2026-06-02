@@ -1,0 +1,10 @@
+Day 2 - Problem statement 
+Problem Statement
+
+Power and water supply are essential services required for daily life. In many residential areas, villages, towns, and apartment communities, people often face unexpected power cuts and water supply interruptions. Most residents are not informed in advance about these outages, maintenance activities, or restoration schedules. As a result, they experience inconvenience in managing their daily activities, work, studies, and household responsibilities.
+
+Currently, there is no simple and centralized platform where users can quickly check the status of power and water supply in their locality. People usually depend on phone calls, social media messages, or word-of-mouth communication to obtain information. This process is time-consuming and often leads to confusion due to inaccurate or delayed information.
+
+The proposed Power Cut & Water Supply Alert System aims to solve this problem by providing a web-based platform where users can report power cuts and water supply issues in their area. Other users can view these alerts and stay informed about ongoing service interruptions. The system also allows administrators to verify reports, update the status of issues, and provide restoration information.
+
+By offering real-time alerts and a centralized information system, the project improves communication between residents and service providers. It helps people plan their daily activities more effectively and reduces uncertainty during utility service disruptions.

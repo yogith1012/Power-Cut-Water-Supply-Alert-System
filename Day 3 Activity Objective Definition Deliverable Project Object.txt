@@ -1,0 +1,24 @@
+Day 3
+Activity: Objective Definition
+Deliverable: Project Object
+Project Objectives
+
+1. To develop a web-based system for reporting and monitoring power cuts and water supply interruptions.
+
+2. To provide timely and accurate information about utility service disruptions to users.
+
+3. To allow residents to report power and water supply issues in their locality.
+
+4. To display alerts and updates regarding ongoing and resolved issues.
+
+5. To improve communication between users and utility service providers.
+
+6. To reduce confusion and inconvenience caused by unexpected power and water supply outages.
+
+7. To maintain a centralized database of reported issues and their status.
+
+8. To provide an easy-to-use interface that can be accessed by all users.
+
+9. To enable administrators to verify, update, and manage reported alerts.
+
+10. To help communities plan their daily activities effectively during service interruptions.

@@ -1,0 +1,59 @@
+Day 4 Modules
+PROJECT TITLE: Power Cut & Water Supply Alert System
+
+USER IDENTIFICATION
+
+1. Admin
+   
+   - Manages the system
+   - Verifies reports
+   - Updates issue status
+   - Removes invalid reports
+
+2. User
+   
+   - Registers and logs in
+   - Reports power cut issues
+   - Reports water supply issues
+   - Views alerts and updates
+
+MODULE IDENTIFICATION
+
+1. User Registration Module
+   Purpose:
+   Allows new users to create an account and access the system.
+
+2. Login Module
+   Purpose:
+   Allows users and administrators to securely log in to the system.
+
+3. Report Issue Module
+   Purpose:
+   Allows users to report power cuts and water supply interruptions.
+
+4. Power Cut Alert Module
+   Purpose:
+   Displays information about power outages in different areas.
+
+5. Water Supply Alert Module
+   Purpose:
+   Displays information about water supply interruptions and updates.
+
+6. Alert Management Module
+   Purpose:
+   Allows administrators to review, verify, update, and resolve alerts.
+
+7. Dashboard Module
+   Purpose:
+   Displays all active alerts, recent reports, and system updates.
+
+MODULE LIST
+
+1. User Registration Module
+2. Login Module
+3. Report Issue Module
+4. Power Cut Alert Module
+5. Water Supply Alert Module
+6. Alert Management Module
+7. Dashboard Module
+

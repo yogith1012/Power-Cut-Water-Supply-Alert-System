@@ -1,0 +1,14 @@
+Use Case Diagram
+      User                         Admin
+            |                            |
+            |                            |
+   -------------------        --------------------
+   | Register       |            | Login            |
+   | Login          |              | View Reports     |
+   | Report Issue   |          | Verify Reports   |
+   | View Alerts    |         | Update Status    |
+   -------------------        --------------------
+                  \            /
+                   \          /
+              Power Cut & Water
+             Supply Alert System

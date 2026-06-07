@@ -1,0 +1,41 @@
+ER Diagram
++-------------+
+|    USERS    |
++-------------+
+| user_id (PK)|
+| name        |
+| email       |
+| password    |
+| phone_no    |
++-------------+
+       |
+       | Reports
+       |
+       V
++-------------+
+|   ALERTS    |
++-------------+
+| alert_id(PK)|
+| area        |
+| issue_type  |
+| description |
+| status      |
+| report_date |
+| user_id(FK) |
++-------------+
+
++-------------+
+|    ADMIN    |
++-------------+
+| admin_id(PK)|
+| admin_name  |
+| email       |
+| password    |
++-------------+
+       |
+       | Manages
+       |
+       V
++-------------+
+|   ALERTS    |
++-------------+

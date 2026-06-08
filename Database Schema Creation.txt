@@ -1,0 +1,42 @@
+Database Schema Creation 
+DATABASE SCHEMA
+
+TABLE: USERS
+
+Field Name    Data Type      Key
+--------------------------------
+user_id       INT            PK
+name          VARCHAR(100)
+email         VARCHAR(100)
+password      VARCHAR(100)
+phone_no      VARCHAR(15)
+
+TABLE: ALERTS
+
+Field Name    Data Type      Key
+--------------------------------
+alert_id      INT            PK
+area          VARCHAR(100)
+issue_type    VARCHAR(50)
+description   TEXT
+status        VARCHAR(20)
+report_date   DATE
+user_id       INT            FK
+
+TABLE: ADMIN
+
+Field Name    Data Type      Key
+--------------------------------
+admin_id      INT            PK
+admin_name    VARCHAR(100)
+email         VARCHAR(100)
+password      VARCHAR(100)
+
+RELATIONSHIP
+
+USERS (1) ---------> (M) ALERTS
+
+ADMIN ---------> MANAGES ALERTS
+
+PK = Primary Key
+FK = Foreign Key

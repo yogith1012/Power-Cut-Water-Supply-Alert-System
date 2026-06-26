@@ -1,0 +1,18 @@
+API
+Method
+URL
+Login
+POST
+http://localhost:8080/api/login
+Create Report
+POST
+http://localhost:8080/api/reports
+View Reports
+GET
+http://localhost:8080/api/reports
+Update Report
+PUT
+http://localhost:8080/api/reports/1
+Delete Report
+DELETE
+http://localhost:8080/api/reports/1

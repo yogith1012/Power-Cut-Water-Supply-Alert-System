@@ -1,0 +1,53 @@
+package com.poweralert.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+
+    public String loginUser() {
+        return "User Login Successful";
+    }
+
+    public String registerUser() {
+        return "User Registered Successfully";
+    }
+}
+
+
+
+
+package com.poweralert.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReportService {
+
+    public String createReport() {
+        return "Report Created Successfully";
+    }
+
+    public String updateReport() {
+        return "Report Updated Successfully";
+    }
+
+    public String deleteReport() {
+        return "Report Deleted Successfully";
+    }
+}
+
+
+
+
+package com.poweralert.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class AlertService {
+
+    public String getAlerts() {
+        return "Displaying Alerts";
+    }
+}

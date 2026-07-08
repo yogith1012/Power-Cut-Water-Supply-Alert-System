@@ -47,27 +47,27 @@
 
 <tr>
 <td>Total Reports</td>
-<td>185</td>
+<td id="totalReports">0</td>
 </tr>
 
 <tr>
 <td>Power Cut Reports</td>
-<td>105</td>
+<td id="powerReports">0</td>
 </tr>
 
 <tr>
 <td>Water Supply Reports</td>
-<td>80</td>
+<td id="waterReports">0</td>
 </tr>
 
 <tr>
 <td>Resolved Issues</td>
-<td>140</td>
+<td id="resolvedReports">0</td>
 </tr>
 
 <tr>
 <td>Pending Issues</td>
-<td>45</td>
+<td id="pendingReports">0</td>
 </tr>
 
 </table>
@@ -78,37 +78,23 @@
 
 <table border="1" width="100%" cellpadding="10">
 
+<thead>
+
 <tr bgcolor="#dddddd">
 <th>ID</th>
-<th>User</th>
 <th>Area</th>
-<th>Issue</th>
+<th>Issue Type</th>
+<th>Description</th>
 <th>Status</th>
-</tr>
+<th>Action</th>
 
-<tr>
-<td>101</td>
-<td>Yogith</td>
-<td>Salem</td>
-<td>Power Cut</td>
-<td style="color:red;"><b>Pending</b></td>
-</tr>
+</thead>
 
-<tr>
-<td>102</td>
-<td>Kumar</td>
-<td>Attur</td>
-<td>Water Supply</td>
-<td style="color:orange;"><b>In Progress</b></td>
-</tr>
+<tbody id="complaintTable">
 
-<tr>
-<td>103</td>
-<td>Arun</td>
-<td>Omalur</td>
-<td>Power Cut</td>
-<td style="color:green;"><b>Resolved</b></td>
-</tr>
+<!-- Complaints will load here automatically -->
+
+</tbody>
 
 </table>
 

@@ -24,29 +24,29 @@
 
 </header>
 
-<section>
+<section id="reportSection">
 
 <h2>📝 Report Power Cut / Water Supply Issue</h2>
 
 <p>Please fill in the details below to report an issue.</p>
 
-<form>
+<form id="complaintForm">
 
 <label><b>User Name</b></label><br>
-<input type="text" placeholder="Enter your name" required><br><br>
+<input type="text" id="userName" placeholder="Enter your name" required><br><br>
 
 <label><b>Email</b></label><br>
-<input type="email" placeholder="Enter your email" required><br><br>
+<input type="email" id="email" placeholder="Enter your email" required><br><br>
 
 <label><b>Phone Number</b></label><br>
-<input type="tel" placeholder="Enter phone number" required><br><br>
+<input type="tel" id="phone" placeholder="Enter phone number" required><br><br>
 
 <label><b>Area</b></label><br>
-<input type="text" placeholder="Enter your area" required><br><br>
+<input type="text" id="area" placeholder="Enter your area" required><br><br>
 
 <label><b>Issue Type</b></label><br>
 
-<select required>
+<select id="issueType" required>
     <option value="">-- Select Issue Type --</option>
     <option>Power Cut</option>
     <option>Water Supply</option>
@@ -59,7 +59,7 @@
 
 <label><b>Priority</b></label><br>
 
-<select>
+<select id="priority">
     <option>High</option>
     <option>Medium</option>
     <option>Low</option>
@@ -69,13 +69,15 @@
 
 <label><b>Description</b></label><br>
 
-<textarea rows="5" placeholder="Describe your issue here..." required></textarea>
+<textarea id="description" rows="5" placeholder="Describe your issue here..." required></textarea>
 
 <br><br>
 
 <button type="submit">Submit Report</button>
 
 <button type="reset">Clear Form</button>
+
+<p id="message"></p>
 
 </form>
 
@@ -97,13 +99,9 @@
 <footer>
 
 <p>
-
 © 2026 Power Cut & Water Supply Alert System
-
 <br>
-
 Developed for Final Year Project
-
 </p>
 
 </footer>

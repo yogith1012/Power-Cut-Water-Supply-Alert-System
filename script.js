@@ -90,7 +90,6 @@ if (registerForm) {
         try {
 
             const response = await fetch("http://localhost:8081/users/register", {
-
                 method: "POST",
 
                 headers: {
@@ -353,7 +352,7 @@ function updateStatus(id) {
         return;
     }
 
-    fetch(`http://localhost:8081/complaints/status/${id}?status=${encodeURIComponent(newStatus)}`, {
+   fetch(`http://localhost:8081/complaints/status/${id}?status=${encodeURIComponent(newStatus)}`, {
         method: "PUT"
     })
 

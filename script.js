@@ -228,17 +228,22 @@ if (complaintForm) {
 
             });
 
-            if (response.ok) {
+          if (response.ok) {
 
-                alert("✅ Complaint Submitted Successfully!");
+    alert("✅ Complaint Submitted Successfully!");
 
-                complaintForm.reset();
+    complaintForm.reset();
 
-            } else {
+    // Automatically go to Alerts page
+    setTimeout(() => {
+        window.location.href = "alerts.html";
+    }, 1000);
 
-                alert("❌ Failed to Submit Complaint!");
+} else {
 
-            }
+    alert("❌ Failed to Submit Complaint!");
+
+}
 
         } catch (error) {
 

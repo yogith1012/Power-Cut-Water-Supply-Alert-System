@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Alerts - Power Cut & Water Supply Alert System</title>
+    <title>Alerts Dashboard - Power Cut & Water Supply Alert System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
+
     <h1>⚡ Power Cut & Water Supply Alert System</h1>
 
     <nav>
-        <a href="index.html">Home</a> |
         <a href="dashboard.html">Dashboard</a> |
         <a href="report.html">Report Issue</a> |
         <a href="alerts.html">Alerts</a> |
-        <a href="profile.html">Profile</a>
+        <a href="admin.html">Admin</a> |
+        <a href="login.html">Logout</a>
     </nav>
 
     <hr>
+
 </header>
 
 <section>
 
-<h2>🔔 Live Alerts</h2>
+<h2>🔔 Alerts Dashboard</h2>
 
 <p>Current utility service alerts in your area.</p>
 
@@ -83,6 +86,20 @@
 <li>Resolved : 1</li>
 </ul>
 
+<br><br>
+
+<button onclick="window.location.href='dashboard.html'">
+⬅ Back to Dashboard
+</button>
+
+<button onclick="window.location.href='report.html'">
+📝 Report Another Issue
+</button>
+
+<button onclick="window.location.href='admin.html'">
+➡ Next : Admin Dashboard
+</button>
+
 </section>
 
 <hr>
@@ -90,7 +107,8 @@
 <footer>
 
 <p>
-© 2026 Power Cut & Water Supply Alert System<br>
+© 2026 Power Cut & Water Supply Alert System
+<br>
 Developed for Final Year Project
 </p>
 
@@ -99,4 +117,5 @@ Developed for Final Year Project
 <script src="script.js"></script>
 
 </body>
+
 </html>

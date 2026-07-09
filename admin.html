@@ -14,11 +14,11 @@
 <h1>⚡ Power Cut & Water Supply Alert System</h1>
 
 <nav>
-    <a href="index.html">Home</a> |
     <a href="dashboard.html">Dashboard</a> |
     <a href="report.html">Report Issue</a> |
     <a href="alerts.html">Alerts</a> |
-    <a href="admin.html">Admin</a>
+    <a href="admin.html">Admin</a> |
+    <a href="login.html">Logout</a>
 </nav>
 
 <hr>
@@ -87,12 +87,13 @@
 <th>Description</th>
 <th>Status</th>
 <th>Action</th>
+</tr>
 
 </thead>
 
 <tbody id="complaintTable">
 
-<!-- Complaints will load here automatically -->
+<!-- Complaints will load automatically -->
 
 </tbody>
 
@@ -102,15 +103,25 @@
 
 <h3>Admin Actions</h3>
 
-<button>Manage Users</button>
+<button onclick="window.location.href='dashboard.html'">
+🏠 Dashboard
+</button>
 
-<button>View Reports</button>
+<button onclick="window.location.href='report.html'">
+📝 Report Issue
+</button>
 
-<button>Approve Alerts</button>
+<button onclick="window.location.href='alerts.html'">
+🚨 View Alerts
+</button>
 
-<button>Generate Report</button>
+<button onclick="location.reload()">
+🔄 Refresh
+</button>
 
-<button>Logout</button>
+<button onclick="window.location.href='login.html'">
+🚪 Logout
+</button>
 
 </section>
 
